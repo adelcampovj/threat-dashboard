@@ -1,0 +1,5 @@
+{
+    "virustotal": "YOUR_ABUSEIPDB_KEY",
+    "alienvault": "YOUR_VIRUSTOTAL_KEY",
+    "abuseipdb": "YOUR_ALIENVAULT_KEY"
+}
