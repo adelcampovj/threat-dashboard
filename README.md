@@ -1,6 +1,8 @@
-![threat-dashboard](https://img.shields.io/badge/status-Ready%20for%20Review-brightgreen)
+![threat-dashboard](https://img.shields.io/badge/status-Ready%20for%20Use-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
+
+# Threat Dashboard
 
 A terminal based tool for analyzing IP addresses, malware hashes, and domain reputations using public threat intelligence APIs
 
@@ -8,36 +10,33 @@ If you have any questions about using this threat dashboard, or just want to con
 
 - [LinkedIn](https://www.linkedin.com/in/antonio-del-campo/)
 
-#### Features
-
-* Cross-platform (Works on Linux, Windows, and macOS)
-* CLI-based dashboard with clean menu interface
+### Features
 * Real-time IP reputation checks via AbuseIPDB
 * Malware hash scans through VirusTotal
 * Domain reputation lookups via AlienVault OTX
 * Auto-export results to clean CSV files
 * Prints threat alerts directly to terminal
-* Keeps user input clean and focused (only text accepted)
-* Modular design
 
-## Main Menu
+## Screenshots
+
+### Main Menu
 ![menu](images/screenshot_menu.png)
 
-## Threat Alert
+### Threat Alert
 ![alert](images/screenshot_alert.png)
 
-## CSV Output 
+### CSV Output 
 ![csv](images/screenshot_csv.png)
 
-## Logs Output
+### Logs Output
 ![logs](images/screenshot_logs.png)
 
 ## Installation
 
-This is a Python based CLI application - no installation required. Just follow the steps below:
+This is a Python based application. To install and run it:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/threat-dashboard.git
+git clone https://github.com/adelcampovj/threat-dashboard.git
 cd threat-dashboard
 python3 -m venv env
 source env/bin/activate        # On Windows: .\env\Scripts\activate
@@ -73,4 +72,4 @@ Output files:
 - `data/threat_data.csv` – stores all scanned entries
 - `logs/threat_dashboard.log` – records API and system activity
 
-💡 If you see import warnings in VS Code, make sure your virtual environment is active and the Python interpreter is selected correctly.
+If you see import warnings in VS Code, make sure your virtual environment is active and the Python interpreter is selected correctly.
